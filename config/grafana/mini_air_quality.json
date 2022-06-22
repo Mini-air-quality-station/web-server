@@ -598,7 +598,7 @@
               }
             ]
           },
-          "unit": "humidity"
+          "unit": "percent"
         },
         "overrides": []
       },
