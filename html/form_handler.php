@@ -44,6 +44,11 @@ if ($_POST){
     if (isset($_POST['reboot'])){
         exec('sudo ./scripts/reboot.sh', $output, $value);
     }
+    if (isset($_POST['userTime']) && isset($_POST['userTimezone'])) {
+        $userTime = $_POST['userTime'];
+        $userTimezone = $_POST['userTimezone'];
+        exec("sudo ./scripts/set_date.py '$userTime' '$userTimezone'", $output, $retval);
+    }
 }
 # Go back to configuration website
 header("Location: configuration.php");
