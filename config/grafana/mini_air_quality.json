@@ -42,10 +42,7 @@
   "liveNow": false,
   "panels": [
     {
-      "datasource": {
-        "type": "influxdb",
-        "uid": "GP8N8Tb4k"
-      },
+      "datasource": "InfluxDB",
       "fieldConfig": {
         "defaults": {
           "color": {
