@@ -43,6 +43,78 @@
         <h1>About device.</h1>
       </div>
 
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-3">
+            Hostname
+          </div>
+          <div class="col-sm-5">
+            <?php
+            $output=null;
+            $retval=null;
+            exec('./scripts/get_hostname.sh', $output, $retval);
+            echo $output[0];
+            ?>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-3">
+            Operating system
+          </div>
+          <div class="col-sm-5">
+            <?php
+            $output=null;
+            $retval=null;
+            exec('./scripts/get_os.py', $output, $retval);
+            echo $output[0];
+            ?>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-3">
+            Kernel version
+          </div>
+          <div class="col-sm-5">
+            <?php
+            $output=null;
+            $retval=null;
+            exec('./scripts/get_kernel.sh', $output, $retval);
+            echo $output[0];
+            ?>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-3">
+            Uptime
+          </div>
+          <div class="col-sm-5">
+            <?php
+            $output=null;
+            $retval=null;
+            exec('./scripts/get_uptime.sh', $output, $retval);
+            echo $output[0];
+            ?>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-3">
+            Current system time
+          </div>
+          <div class="col-sm-5">
+            <?php
+            $output=null;
+            $retval=null;
+            exec('./scripts/get_time.py', $output, $retval);
+            echo $output[0];
+            ?>
+          </div>
+        </div>
+      </div>
+
     </main>
 
     <!-- Bootstrap core JavaScript
