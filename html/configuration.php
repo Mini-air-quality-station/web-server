@@ -38,25 +38,7 @@ function create_sensor_freq_list($filename, $sensor_no=null) {
   </head>
 
   <body>
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-      <a class="navbar-brand" href="index.php">Mini Air Quality Station</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Configuration <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="about.php">About device</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-
-    <main role="main" class="container">
+      <main role="main" class="container">
       <div class="starter-template">
         <h1>Configure the device.</h1>
       </div>
