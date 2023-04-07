@@ -108,6 +108,21 @@ function create_sensor_freq_list($filename, $sensor_no=null) {
           <button type="submit" class="btn btn-default">Submit</button>
         </form>
       </div>
+      <br/>
+
+      <div class="container">
+        <form class="form-horizontal" action="form_handler.php" method="post">
+          <input type="hidden" name="poweroff">
+          <button type="submit" class="btn btn-default">Power off</button>
+        </form>
+      </div>
+      <br/>
+      <div class="container">
+        <form class="form-horizontal" action="form_handler.php" method="post">
+          <input type="hidden" name="reboot">
+          <button type="submit" class="btn btn-default">Reboot</button>
+        </form>
+      </div>
     </main>
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
