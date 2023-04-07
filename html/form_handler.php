@@ -38,6 +38,12 @@ if ($_POST){
         $value = $_POST['pm10particleMeasureFreqControl'];
         exec("./scripts/save_new_env_val.py '$value'", $output, $retval);
     }
+    if (isset($_POST['poweroff'])){
+        exec('sudo ./scripts/poweroff.sh', $output, $value);
+    }
+    if (isset($_POST['reboot'])){
+        exec('sudo ./scripts/reboot.sh', $output, $value);
+    }
 }
 # Go back to configuration website
 header("Location: configuration.php");
