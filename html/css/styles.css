@@ -1,13 +1,18 @@
 body {
     padding-top: 5rem;
   }
-  .starter-template {
-    padding: 3rem 1.5rem;
-    text-align: center;
+.starter-template {
+  padding: 3rem 1.5rem;
+  text-align: center;
+}
+[class*="col-"] {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: rgba(66, 65, 69, 0.15);
+  border: 1px solid rgba(86, 61, 124, .2);
+}
+@media (pointer:coarse) {
+  div.mobile-hidden {
+    display: none;
   }
-  [class*="col-"] {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    background-color: rgba(66, 65, 69, 0.15);
-    border: 1px solid rgba(86, 61, 124, .2);
-  }
+}

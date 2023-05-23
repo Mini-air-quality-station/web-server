@@ -11,9 +11,33 @@
 
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
+    <?php include 'common.php'; ?>
   </head>
 
   <body>
+    <div class="mobile-hidden">
+      <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="index.php">Mini Air Quality Station</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="configuration.php">Configuration</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#">About device <span class="sr-only">(current)</span></a>
+            </li>
+            <?php
+            create_list_addresses();
+            ?>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
     <main role="main" class="container">
 
       <div class="starter-template">
@@ -98,5 +122,6 @@
     <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/common.js"></script>
   </body>
 </html>
