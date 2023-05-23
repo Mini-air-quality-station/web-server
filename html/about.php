@@ -47,7 +47,7 @@
       <div class="container-fluid">
         <div class="row">
           <div class="col-sm-3">
-            Hostname
+            <b>Hostname</b>
           </div>
           <div class="col-sm-5">
             <?php
@@ -61,7 +61,7 @@
 
         <div class="row">
           <div class="col-sm-3">
-            Operating system
+            <b>Operating system</b>
           </div>
           <div class="col-sm-5">
             <?php
@@ -75,7 +75,7 @@
 
         <div class="row">
           <div class="col-sm-3">
-            Kernel version
+            <b>Kernel version</b>
           </div>
           <div class="col-sm-5">
             <?php
@@ -89,7 +89,7 @@
 
         <div class="row">
           <div class="col-sm-3">
-            Uptime
+            <b>Uptime</b>
           </div>
           <div class="col-sm-5">
             <?php
@@ -103,7 +103,7 @@
 
         <div class="row">
           <div class="col-sm-3">
-            Current system time
+            <b>Current system time</b>
           </div>
           <div class="col-sm-5">
             <?php
