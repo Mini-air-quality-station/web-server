@@ -27,12 +27,12 @@
             <li class="nav-item">
               <a class="nav-link" href="configuration.php">Configuration</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="about.php">About device</a>
-            </li>
             <?php
             create_list_addresses();
             ?>
+            <li class="nav-item">
+              <a class="nav-link" href="about.php">About</a>
+            </li>
           </ul>
         </div>
       </nav>
