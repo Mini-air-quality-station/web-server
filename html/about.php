@@ -44,8 +44,8 @@
         <h1>About device.</h1>
       </div>
 
-      <div class="container-fluid" style="margin-bottom: 2em;">
-        <div class="row">
+      <div class="container-fluid" style="margin-bottom: 2em; text-align: center;">
+        <div class="row justify-content-center">
           <div class="col-sm-3">
             <b>Hostname</b>
           </div>
@@ -59,7 +59,7 @@
           </div>
         </div>
 
-        <div class="row">
+        <div class="row justify-content-center">
           <div class="col-sm-3">
             <b>Operating system</b>
           </div>
@@ -73,7 +73,7 @@
           </div>
         </div>
 
-        <div class="row">
+        <div class="row justify-content-center">
           <div class="col-sm-3">
             <b>Kernel version</b>
           </div>
@@ -87,7 +87,7 @@
           </div>
         </div>
 
-        <div class="row">
+        <div class="row justify-content-center">
           <div class="col-sm-3">
             <b>Uptime</b>
           </div>
@@ -101,7 +101,7 @@
           </div>
         </div>
 
-        <div class="row">
+        <div class="row justify-content-center">
           <div class="col-sm-3">
             <b>Current system time</b>
           </div>
