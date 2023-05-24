@@ -44,7 +44,7 @@
         <h1>About device.</h1>
       </div>
 
-      <div class="container-fluid">
+      <div class="container-fluid" style="margin-bottom: 2em;">
         <div class="row">
           <div class="col-sm-3">
             <b>Hostname</b>
