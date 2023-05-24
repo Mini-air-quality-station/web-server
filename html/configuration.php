@@ -51,12 +51,12 @@ function create_sensor_freq_list($filename, $sensor_no=null) {
               <li class="nav-item active">
                 <a class="nav-link" href="#">Configuration <span class="sr-only">(current)</span> </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="about.php">About device</a>
-              </li>
               <?php
               create_list_addresses();
               ?>
+              <li class="nav-item">
+                <a class="nav-link" href="about.php">About</a>
+              </li>
             </ul>
           </div>
         </nav>
