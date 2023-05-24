@@ -64,7 +64,7 @@ function create_sensor_freq_list($filename, $sensor_no=null) {
 
       <main role="main" class="container">
       <div class="starter-template">
-        <h1>Configure the device.</h1>
+        <h1>Device configuration</h1>
       </div>
 
       <div class="container">

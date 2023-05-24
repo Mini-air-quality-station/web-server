@@ -7,7 +7,7 @@
     <meta name="author" content="">
     <link rel="icon" href="images/Raspberry_Pi_Logo.svg">
 
-    <title>About device</title>
+    <title>About</title>
 
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
@@ -41,7 +41,7 @@
     <main role="main" class="container">
 
       <div class="starter-template">
-        <h1>About device.</h1>
+        <h1>About</h1>
       </div>
 
       <div class="container-fluid" style="margin-bottom: 2em; text-align: center;">
