@@ -141,7 +141,7 @@ function create_sensor_freq_list($filename, $sensor_no=null) {
         </form>
       </div>
       <br/>
-      <div class="container">
+      <div class="container" style="margin-bottom:2em;">
         <form class="form-horizontal" action="form_handler.php" method="post">
           <input type="hidden" name="reboot">
           <button type="submit" class="btn btn-default">Reboot</button>
