@@ -671,7 +671,7 @@
               "mode": "off"
             }
           },
-          "decimals": 1,
+          "decimals": 0,
           "displayName": "Pressure",
           "mappings": [],
           "thresholds": {
@@ -908,6 +908,6 @@
   "timezone": "",
   "title": "Mini Air Quality Station",
   "uid": "B2QyxC-4z",
-  "version": 4,
+  "version": 5,
   "weekStart": ""
 }
